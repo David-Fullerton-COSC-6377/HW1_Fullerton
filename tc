@@ -1,0 +1,21 @@
+
+clear
+echo ----------------------------------------------------------
+echo Compiling Test Environment
+echo
+gcc test.c -o t
+echo
+echo "Press [Enter] key to run code or CONTROL-C to quit ..."
+read -p ""
+echo **************************************************************
+clear
+echo ----------------------------------------------------------
+echo Running Test Environment
+echo
+./t
+echo
+echo ----------------------------------------------------------
+echo
+
+
+
